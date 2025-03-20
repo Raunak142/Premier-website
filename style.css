@@ -1080,9 +1080,9 @@ html,body{
 
 #imagebox{
     height: 60vh;
-    width: 87vw;
+    width: 100%;
     margin-top: 20px;
-    padding: 10px;
+    padding: 11px;
     margin-bottom: 20px;
 }
 #imagebox #image{
