@@ -974,25 +974,21 @@ html,body{
         }
         
     }
-
-    
+ 
 #alphabet{
     height: 12vh;
- 
+    padding: 20px;
    justify-content: flex-start;
    align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
     gap: 9vw;
-   border: 0px;
-    animation-name: animation;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-
+    border: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+   
 }
 #alphabet h5{
-   
     width: fit-content;
     font-size: 10vw;
     text-transform:uppercase ;
@@ -1009,7 +1005,7 @@ html,body{
     font-weight: 400;
     font-style: italic;
     transition: all ease 0.2s;
-    cursor: pointer;
+    
     padding: 0.6vw 0.8vw;
     border-radius: 65%;
 }
